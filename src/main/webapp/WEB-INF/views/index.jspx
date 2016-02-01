@@ -1,0 +1,216 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+  <jsp:directive.page contentType="text/html;charset=UTF-8" />
+  <jsp:output omit-xml-declaration="yes" />
+  <spring:message var="app_name" code="application_name" htmlEscape="false" />
+  <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
+  <spring:url var="image_nick" value="/resources/images/1.jpg" />
+  <spring:url var="image_oahm" value="/resources/images/2.jpg" />
+  <spring:url var="image_rice" value="/resources/images/rice.gif" />
+
+
+    <body id="page-top" class="index">
+
+    
+    <!-- Navigation -->
+<!--     <nav id="nav-menu" class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="li-menu">
+                            <a class="page-scroll" href="#services">หน้าหลัก</a>
+                        </li>
+                        <li class="li-menu">
+                            <a class="page-scroll" href="#services">เช็คราคาข้าว</a>
+                        </li>
+                        <li class="li-menu">
+                            <a class="page-scroll" href="#contact">เกร็ดความรู้</a>
+                        </li>
+                        <li class="li-menu">
+                            <a class="page-scroll" href="#contact">ติดต่อ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="aa" class="navbar-brand page-scroll" href="#page-top">WebservicePriceOfRice</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Knowledge</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Service</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <!-- <img id="image" src="${image_oahm}" class="img-responsive img-circle" alt=""/>
+                <div class="intro-heading"><a id="webservice">WebServicePriceOfRice</a></div> -->
+               <!--  <a id="btnWebSite" class="waves-effect waves-light">เข้าสู่เว็บไซต์</a> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">เกร็ดความรู้</h2>
+                    <h3 class="section-subheading text-muted">ลักษณะพิเศษของแต่ละพันธุ์</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <!-- <img class="img-circle img-responsive" src="img/about/1.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ประเภทที1</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <!-- <img class="img-circle img-responsive" src="img/about/2.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ประเภทที่2</h4>
+                                    <h4 class="subheading">An Agency is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <!-- <img class="img-circle img-responsive" src="img/about/3.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ประเภทที่3</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                               <!--  <img class="img-circle img-responsive" src="img/about/4.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ประเภทที่4</h4>
+                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                           <li>
+                            <div class="timeline-image">
+                                <!-- <img class="img-circle img-responsive" src="img/about/3.jpg" alt=""> -->
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>ประเภทที่5</h4>
+                                    <h4 class="subheading">Transition to Full Service</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                </div>
+                            </div>
+                        </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">คณะผู้จัดทำ</h2>
+                    <h3 class="section-subheading text-muted">มหาวิทยาลัยนอร์ทกรุงเทพ</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-2">
+                    <div class="team-member">
+                         <img src="${image_nick}" class="img-responsive img-circle" alt="" />
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="${image_oahm}" class="img-responsive img-circle" alt="" />
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  </body>
+</div>

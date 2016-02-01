@@ -1,0 +1,17 @@
+----------------------------------------------------------------
+Mon Feb 01 21:31:37 ICT 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0152-9d3e-fd8c-0000079d3160 
+on database directory /home/nick/ProjectNorthBKKRequestor/WebservicePriceOfRiceRequestor  with class loader WebappClassLoader
+  context: /WebservicePriceOfRiceRequestor
+  delegate: false
+  repositories:
+    /WEB-INF/classes/
+----------> Parent Classloader:
+ClassRealm[plugin>org.codehaus.mojo:tomcat-maven-plugin:1.1, parent: sun.misc.Launcher$AppClassLoader@30a4effe]
+ 
+Loaded from file:/home/nick/.m2/repository/org/apache/derby/derby/10.8.2.2/derby-10.8.2.2.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_71-b14
+user.dir=/home/nick/ProjectNorthBKKRequestor
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
