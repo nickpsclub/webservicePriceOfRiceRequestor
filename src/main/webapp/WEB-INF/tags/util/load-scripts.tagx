@@ -17,7 +17,7 @@
   <spring:url value="/resources/styles/materialize.min.css" var="materialize_css_url" />
 
   <spring:url value="/resources/styles/agency.css" var="agency_css_url" />
-  <spring:url value="/resources/styles/font-awesome.min.css" var="fontAwesome_css_url" />
+<!--   <spring:url value="/resources/styles/font-awesome.min.css" var="fontAwesome_css_url" /> -->
   <spring:url value="/resources/styles/common.css" var="common_css_url" />
 
 
@@ -25,9 +25,11 @@
   <link rel="stylesheet" type="text/css" href="${agency_css_url}" />
   <link rel="stylesheet" type="text/css" href="${bootstrap_css_url}" />
   <link rel="stylesheet" type="text/css" href="${materialize_css_url}" />
-  <link rel="stylesheet" type="text/css" href="${fontAwesome_css_url}" />
+<!--   <link rel="stylesheet" type="text/css" href="${fontAwesome_css_url}" /> -->
   <link rel="stylesheet" type="text/css" href="${common_css_url}" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
 
 
 

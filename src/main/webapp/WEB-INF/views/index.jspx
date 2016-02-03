@@ -5,36 +5,12 @@
   <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
   <spring:url var="image_nick" value="/resources/images/1.jpg" />
   <spring:url var="image_oahm" value="/resources/images/2.jpg" />
-  <spring:url var="image_rice" value="/resources/images/rice.gif" />
+
 
 
     <body id="page-top" class="index">
 
-    
-    <!-- Navigation -->
-<!--     <nav id="nav-menu" class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="li-menu">
-                            <a class="page-scroll" href="#services">หน้าหลัก</a>
-                        </li>
-                        <li class="li-menu">
-                            <a class="page-scroll" href="#services">เช็คราคาข้าว</a>
-                        </li>
-                        <li class="li-menu">
-                            <a class="page-scroll" href="#contact">เกร็ดความรู้</a>
-                        </li>
-                        <li class="li-menu">
-                            <a class="page-scroll" href="#contact">ติดต่อ</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </nav> -->
-        <nav class="navbar navbar-default navbar-fixed-top">
+        <nav id="nav-menu" class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -93,71 +69,66 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <!-- <img class="img-circle img-responsive" src="img/about/1.jpg" alt=""> -->
+                                <a href="http://www.toyota.co.th/rrc/product_whiterice.php" target="blank"><img class="img-circle img-responsive" src="resources/images/Rice/RiceKay.jpg" alt=""/></a>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>ประเภทที1</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>ข้าวขาว</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">ข้าวขาวในประเทศไทยเป็นข้าวเมล็ดยาว การเพาะปลูกส่วนใหญ่จะอยู่ในภาคกลางของประเทศไทยที่มีระบบชลประทานที่ดี มีการเพาะปลูก 2 ถึง 3 ครั้งต่อปี ข้าวขาวไทยมีการติดต่อค้าขายกว่า 100 ประเทศทั่วโลกจึงมีปริมาณการส่งออกที่เพิ่มขึ้นอย่างรวดเร็ว </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <!-- <img class="img-circle img-responsive" src="img/about/2.jpg" alt=""> -->
+                                <a href="http://www.toyota.co.th/rrc/product_jusminrice.php" target="blank"><img class="img-circle img-responsive" src="resources/images/Rice/RiceMari.jpg" alt=""/></a>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>ประเภทที่2</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>ข้าวหอมมะลิ</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">ในประเทศไทยมีชื่อเสียงในเรื่องของข้าวหอมมะลิ ลักษณะของเมล็ด ยาวเรียว ขาวใส เป็นเงา แกร่ง มีท้องไข่น้อย มีกลิ่นหอมคล้ายใบเตย เหมาะกับผู้ที่ชอบรับประทานข้าวที่อ่อนนุ่ม เมล็ดยาวสวยรับประทานอร่อย พันธ์ข้าวหอมมะลิที่นิยมปลูกในประเทศไทยคือพันธุ์กข.15และพันธุ์ดอกมะลิ105</p>
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="timeline-image">
-                                <!-- <img class="img-circle img-responsive" src="img/about/3.jpg" alt=""> -->
+                                <a href="http://knowledgeintheword.org/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%E0%B8%9B%E0%B8%97%E0%B8%B8%E0%B8%A1%E0%B8%98/" target="blank"><img class="img-circle img-responsive" src="resources/images/Rice/RicePathom.jpg" alt=""/></a>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>ประเภทที่3</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>ข้าวปทุมธานี</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">เป็นข้าวอันดับสองรองจากข้าวหอมมะลิในไทย นี่คือข้าวหอมพันธุ์ใหม่ที่พัฒนาในสถาบันข้าวปทุมธานีในประเทศไทย มีความคล้ายกันกับข้าวหอมมะลิ จะแตกต่างกันในเรื่องของกลิ่น และความอ่อนนุ่มหลังจากที่หุงเสร็จ แล้วทิ้งช่วงระยะเวลาไปซักพัก</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                               <!--  <img class="img-circle img-responsive" src="img/about/4.jpg" alt=""> -->
+                               <a href="http://www.foodnetworksolution.com/wiki/word/1079/parboiled-rice-%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87" target="blank"><img class="img-circle img-responsive" src="resources/images/Rice/RiceNung.jpg" alt=""/></a>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>ประเภทที่4</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4>ข้าวนึ่ง</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">คือข้าวเปลือกที่นำมาแช่น้ำจนข้าวอิ่มตัวแล้วนำไปอบด้วยไอน้ำจากกระบวนการนี้ข้าวที่ได้จึงเรียกว่าข้าวนึ่ง จากนั้นนำข้าวที่นึ่งแล้วไปอบให้แห้งแล้วนำไปสู่กระบวนการสีต่อไป ข้าวนึ่งเป็นข้าวที่มีวิตามินมากและสามารถเก็บไว้ได้นาน ข้าวนึ่งนี้ไม่นิยมรับประทานภายในประเทศส่วนมากจะส่งออกไปยังประเทศในแถบตะวันออกกลางและทวีปแอฟริกา</p>
                                 </div>
                             </div>
                         </li>
                            <li>
                             <div class="timeline-image">
-                                <!-- <img class="img-circle img-responsive" src="img/about/3.jpg" alt=""> -->
+                                <a href="http://www.toyota.co.th/rrc/product_stickeyrice.php" target="blank"><img class="img-circle img-responsive" src="resources/images/Rice/Rice.jpg" alt=""/></a>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>ประเภทที่5</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>ข้าวเหนียว</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">เป็นข้าวที่มีค่าอไมโลสสูงมากกว่าข้าวชนิดอื่นๆ จึงทำให้มีความเหนียวนุ่ม และมีการเกาะตัวที่แน่นหนาของโมเลกุลแป้งส่งผลให้มีการย่อยสลายข้าวเหนียวในกระเพาะเป็นระยะเวลานานจึงทำให้ผู้ที่รับประทานอยู่ท้องได้นาน สามารถนำไปประกอบเป็นของหวานได้หลายชนิด</p>
                                 </div>
                             </div>
                         </li>
@@ -184,28 +155,28 @@
                         <h4>Kay Garland</h4>
                         <p class="text-muted">Lead Designer</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li> -->
+                        <!--     <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="${image_oahm}" class="img-responsive img-circle" alt="" />
-                        <h4>Larry Parker</h4>
-                        <p class="text-muted">Lead Marketer</p>
-                        <ul class="list-inline social-buttons">
+                        <img src="resources/images/Oahm.jpg" class="img-responsive img-circle" alt="" />
+                        <h4>Supanya Puwirat</h4>
+                        <p class="text-muted">Supanya Puwirat</p>
+                     <!--    <ul class="list-inline social-buttons">
                             <li><a href="#"><i class="fa fa-twitter"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
