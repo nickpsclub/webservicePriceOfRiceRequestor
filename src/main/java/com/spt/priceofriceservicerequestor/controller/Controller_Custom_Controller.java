@@ -13,17 +13,17 @@ import com.spt.priceofriceservicerequestor.service.RestService;
  * Created by korrakote on 2/2/2559.
  */
 @Controller
-@RequestMapping("/nick")
+@RequestMapping("/service")
 public aspect Controller_Custom_Controller {
 
 	@Autowired 
     RestService restService;
 
-    @RequestMapping(value = "/findExchangeCurrencyByDate",method = RequestMethod.GET,headers = "Accept=application/json")
-    public ResponseEntity<String> findExchangeCurrencyByDate(){
+    @RequestMapping(value = "/findSeedRice",method = RequestMethod.GET,headers = "Accept=application/json")
+    public ResponseEntity<String> findSeedRice(){
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type", "application/json; charset=utf-8");
-        return restService.findExchangeCurrencyByDate();
+        return restService.findSeedRice();
     }
 
     @RequestMapping(value = "/findPricePerDayByDate",method = RequestMethod.GET,headers = "Accept=application/json")

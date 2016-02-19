@@ -16,7 +16,7 @@ public class RestService extends AbstractCurrencyExchangeService {
 
     static Logger logger = LoggerFactory.getLogger(RestService.class);
    
-    public ResponseEntity<String> findExchangeCurrencyByDate(){
+    public ResponseEntity<String> findSeedRice(){
         RestTemplate restTemplate = new RestTemplate();
         String url = "http://" + this.HRMSServer + "/seedrices/findAllSeedRice";
         return getResultStringByTypeHttpMethodAndBodyContent("", HttpMethod.GET,url,restTemplate);
