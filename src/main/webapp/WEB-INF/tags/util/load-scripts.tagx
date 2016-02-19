@@ -17,7 +17,7 @@
   <spring:url value="/resources/styles/materialize.min.css" var="materialize_css_url" />
 
   <spring:url value="/resources/styles/agency.css" var="agency_css_url" />
-<!--   <spring:url value="/resources/styles/font-awesome.min.css" var="fontAwesome_css_url" /> -->
+  <spring:url value="/resources/styles/font-awesome.min.css" var="fontAwesome_css_url" />
   <spring:url value="/resources/styles/common.css" var="common_css_url" />
 
 
@@ -25,16 +25,11 @@
   <link rel="stylesheet" type="text/css" href="${agency_css_url}" />
   <link rel="stylesheet" type="text/css" href="${bootstrap_css_url}" />
   <link rel="stylesheet" type="text/css" href="${materialize_css_url}" />
-<!--   <link rel="stylesheet" type="text/css" href="${fontAwesome_css_url}" /> -->
+  <link rel="stylesheet" type="text/css" href="${fontAwesome_css_url}" />
   <link rel="stylesheet" type="text/css" href="${common_css_url}" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> -->
 
-
-
-
-
-  
 
   <!-- Get the user local from the page context (it was set by Spring MVC's locale resolver) -->
   <c:set var="userLocale">
@@ -53,20 +48,16 @@
   <spring:url value="/resources/scripts/bootstrap.min.js" var="bootstrap_js_url" />
   <spring:url value="/resources/scripts/materialize.min.js" var="materialize_js_url" />
  <!--  <spring:url value="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" var="jquery_easing_min_url" /> -->
-  <spring:url value="/resources/scripts/classie.js" var="classie_js_url" />
-  <spring:url value="/resources/scripts/cbpAnimatedHeader.js" var="cbpAnimatedHeader_js_url" /> 
+
+ 
   <spring:url value="/resources/scripts/jqBootstrapValidation.js" var="jqBootstrapValidation_js_url" />
   <spring:url value="/resources/scripts/contact_me.js" var="contact_me_js_url" />
   <spring:url value="/resources/scripts/agency.js" var="agency_js_url" />
 
 
-
-
   <script src="${jquery_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script src="${bootstrap_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script src="${materialize_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
-  <script src="${classie_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
-  <script src="${cbpAnimatedHeader_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script src="${jqBootstrapValidation_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script src="${contact_me_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script src="${agency_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>

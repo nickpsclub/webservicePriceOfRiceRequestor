@@ -8,4 +8,35 @@
   <a href="${home}" name="${fn:escapeXml(home_label)}" title="${fn:escapeXml(home_label)}">
     <img src="${banner}" />
   </a> -->
+  <nav id="nav-menu" class="navbar  navbar-fixed-top">
+            <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="webservice" class="navbar-brand page-scroll" href="#page-top">WebservicePriceOfRice</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="navbar-right">
+                        <li id="knowLedge" class="menu-li">
+                            <a class="page-scroll" href="#about">Knowledge</a>
+                        </li>
+                        <li class="menu-li">
+                            <a class="page-scroll" href="#team">Team</a>
+                        </li>
+                        <li class="menu-li">
+                            <a class="page-scroll" href="#contact">Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        <!-- /.container-fluid -->
+        </nav>
 </div> 
