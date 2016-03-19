@@ -8,9 +8,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 
-/**
- * Created by korrakote on 2/2/2559.
- */
 @Service
 public class RestService extends AbstractCurrencyExchangeService {
 
